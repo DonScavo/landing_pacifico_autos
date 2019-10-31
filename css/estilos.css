@@ -28,6 +28,10 @@
     src: url(../fonts/Montserrat-Regular.otf);
 }
 
+:root {
+    scroll-behavior: smooth;
+}
+
 .foco {
     font-family: foco;
 }
@@ -108,7 +112,7 @@ a {
 .bg_base {
     background-image: url('../img/fondocp_02.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     padding-top: 1vw;
     position: relative;
     z-index: 30;
